@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+    background-color: aqua;
+}
+*{
+    box-sizing: inherit;
+    /* border: solid red; */
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.img{
+    width: 210px;
+    border: solid white;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.cake{
+    width: 180px;
+    margin-right: 500px;
+    
+}
+.mochi{
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    border: solid white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+.content{
+    border: solid white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.h1{
+    font-size: 130px;
+    border: solid white;
+    background-color: lightskyblue;
+    text-align: center;
+}
+.h2{
+    font-size: 180px;
+    margin: 10px;
+    border: solid white;
+    background-color: aqua;
+    
+}
+
+.p{
+    background-color: aqua;
+    border: solid white;
+    font-size: 50px;
+}
+
+
+
+.button{
+    font-size: 30px;
+    background-color: aqua;
+    border: solid white;
+}
+.button:hover{
+    background: aquamarine;
+}
