@@ -1,0 +1,56 @@
+html{
+    box-sizing: border-box;
+    background-color: aqua;
+}
+*{
+    box-sizing: inherit;
+    /* border: solid red; */
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    border: solid white;
+}
+
+.img{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+    border: solid white;
+}
+
+.mochi{
+    margin: 10px;
+   
+}
+
+.cake{
+    margin: 10px;
+    
+}
+.firstBranch{
+   margin: 10px;
+    border: solid white;
+    background-color: aquamarine;
+}
+
+.title{
+    border: solid white;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 130px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.p{
+    border: solid white;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: aqua;
+}
