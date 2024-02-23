@@ -1,0 +1,102 @@
+html{
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+*{
+    box-sizing: inherit;
+    /* border: solid red; */
+}
+.img{
+    width: 200px;
+    border: solid white;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.cake{
+    width: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: 15px;
+
+}
+.mochi{
+    margin-left: 16px;
+}
+
+.mainBody{
+    border: solid white;
+    display: flex;
+    flex-direction: row;
+}
+
+.writtenBody{
+    border: solid white;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.title{
+    border: solid white;
+    text-align: center;
+    font-size: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: aqua;    
+}
+
+.titleDiv{
+    border: solid white;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.subTitle{
+    background-color: aqua;
+    border: solid white;
+    font-size: 70px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 100px;
+
+}
+
+.p{
+    background-color: aqua;
+    margin: 10px;
+    border: solid white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button{
+    background-color: aqua;
+    border: solid white;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+   
+}
+.button:hover{
+    background-color: aquamarine;
+}
+
+
+.articleDiv{
+    text-align: center;
+
+    
+}
+.buttonH3{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.backDiv{
+    text-align: center;
+    margin: 10px;
+}
