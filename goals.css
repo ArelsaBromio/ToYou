@@ -66,8 +66,10 @@ body{
 .list.div{
     background-color: aqua;
     border: solid white;
-    margin: 10px;
-    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    text-align: center;
 }
 
 .ol{
@@ -99,6 +101,7 @@ body{
     margin: 10px;
     font-size: 30px;
     display: flex;
+    text-align: center;
 }
 
 .img.div{
